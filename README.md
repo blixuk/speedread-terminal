@@ -1,0 +1,2 @@
+# speedread-terminal
+SpeedRead
