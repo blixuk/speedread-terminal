@@ -8,9 +8,9 @@ cmd = Command(description="SpeedRead")
 	cmd.argument("-f", "--file", help="file to read"),
 	cmd.argument("-w", "--wpm", help="words per minute"),
 	cmd.argument("-p", "--pointer", help="set pointer (pipe, carrot, dot, bar, full, none)"),
-	cmd.argument("-r", "--focus", action="store_true", help="use focus on word, highlighting center character"),
+	cmd.argument("-F", "--focus", action="store_true", help="use focus on word, highlighting center character"),
 	cmd.argument("-d", "--delay", action="store_true",help="use word delay based on word length"),
-	cmd.argument("-c", "--punctuation", action="store_true",help="use punctuation delay")
+	cmd.argument("-P", "--punctuation", action="store_true",help="use punctuation delay")
 )
 def main(self, args):
 	'''SpeedRead'''
