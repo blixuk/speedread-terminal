@@ -22,7 +22,7 @@ optional arguments:
   -w WPM, --wpm WPM     words per minute
   -p POINTER, --pointer POINTER
                         set pointer (pipe, carrot, dot, bar, full, none)
-  -r, --focus           use focus on word, highlighting center character
+  -F, --focus           use focus on word, highlighting center character
   -d, --delay           use word delay based on word length
-  -c, --punctuation     use punctuation delay
+  -P, --punctuation     use punctuation delay
 ```
